@@ -9,5 +9,5 @@ var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
 
-  console.log('Hey! I'm listening at http://%s:%s', host, port);
+  console.log('Hey! I am listening at http://%s:%s', host, port);
 });
